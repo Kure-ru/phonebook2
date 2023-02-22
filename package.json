@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/Kure-ru/phonebook2.git"
   },
+  "proxy": "http://localhost:3001",
   "author": "Claire Dochez",
   "license": "MIT",
   "bugs": {
@@ -20,7 +21,8 @@
   "homepage": "https://github.com/Kure-ru/phonebook2#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
