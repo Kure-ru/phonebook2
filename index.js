@@ -40,7 +40,7 @@ let persons = [
     }
 ]
   
-  app.get('/api', (request, response) => {
+  app.get('/api/persons', (request, response) => {
     response.json(persons)
   })
   
